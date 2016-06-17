@@ -1,6 +1,17 @@
 <?php
- $a = "Hello";
+$a = 5;
+if ($a>0){
+ echo 'a больше 0';
+}
+?>
 
-echo $a;
- $b = "Olga";
-echo $b;
+<br>
+<br>
+
+<?php
+$a = 5;
+if ($a>0) {
+ echo 'a больше 0';
+} else {
+ echo 'a не больше 0';
+}
